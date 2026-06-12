@@ -1,0 +1,12 @@
+{
+  "name": "nimap-root",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm --prefix Nimap install",
+    "dev": "npm --prefix Nimap run dev",
+    "build": "npm --prefix Nimap run build",
+    "lint": "npm --prefix Nimap run lint",
+    "preview": "npm --prefix Nimap run preview"
+  }
+}
